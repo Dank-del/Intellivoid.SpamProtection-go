@@ -29,14 +29,14 @@ func UsernameSample01() {
 	}
 
 	if info.Success {
-		log.Println("successed to get information of use from " +
+		log.Println("succeeded to get information of use from " +
 			"intellivoid's databases")
 	}
 
 	if info.IsBlacklisted() {
 		log.Println("target is blacklisted")
 		f := info.GetBlacklistFlag()
-		log.Println("with falg: " + f)
+		log.Println("with flag: " + f)
 	}
 
 	if info.IsVerified() {
@@ -61,14 +61,14 @@ func IdSample01() {
 	}
 
 	if info.Success {
-		log.Println("successed to get information of use from " +
+		log.Println("succeeded to get information of use from " +
 			"intellivoid's database")
 	}
 
 	if info.IsBlacklisted() {
 		log.Println("target is blacklisted")
 		f := info.GetBlacklistFlag()
-		log.Println("with falg: " + f)
+		log.Println("with flag: " + f)
 	}
 
 	if info.IsOfficial() {
